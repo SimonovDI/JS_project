@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/reset.css" rel="stylesheet"/>
+		<link href="css/setka.css" rel="stylesheet"/> 
+		<link href="css/cssShop.css" rel="stylesheet"/>
+	</head>
+		<title></title>
+	</head>
+	<body>
+			<header class="header">
+			<div class="container">
+				
+				<nav class="header__nav ">
+					<div class="row">
+						
+						
+								
+							<a class="header__nav_logo" href="#"><img class="header__nav_img" src="img/logo1.png"/></a>
+							<h3 class="header__nav_text">Garden.xo</h3>
+							
+					
+						
+						<div class="col-8 header__block">
+							<ul class="nav__list">
+								<li class="nav__item"><a class="nav__item_list" href="index.html">Home</a></li>
+								<li class="nav__item"><a class="nav__item_list" href="catalog.html">Catalog</a></li>
+								<li class="nav__item"><a class="nav__item_list" href="Shop.html">Shop</a></li>
+							</ul> 
+						</div>
+						
+				
+						
+					</div>
+				</nav>
+			</div>
+			
+		</header>
+		
+			<section class="calc">
+				<div class="container tc">
+					<div class="row">
+					
+				<div class="col-4 block__item">
+						<label for="Lily__kesselringianum2_label">
+							<img src="img/Liliya/kesselringianum2.jpg"/>
+							<h3 class="Lily__name">Lily Kesselringianum <br>10 $</h3>
+						</label>
+						<input type="number" id="Lily__Kesselringianum" class="lily"> <span class="ht">pc.</span>
+					</div>
+				<div class="col-4 block__item">
+						<label for="Liliya__martagon_label">
+							<img src="img/Liliya/martagon1.jpg"/>
+							<h3 class="Lily__name">Lily martagon <br>15 $</h3>
+						</label>
+						<input type="number" id="Lily__martagon" class="lily"> <span class="ht">pc.</span>
+					</div>
+				<div class="col-4 block__item">
+						<label for="Lily__pardalinum2_label">
+							<img src="img/Liliya/pardalinum2.jpg"/>
+							<h3 class="Lily__name">Lily pardalinum <br>17 $</h3>
+						</label>
+						<input type="number" id="Lily__pardalinum" class="lily"> <span class="ht">pc.</span>
+					</div>
+					
+					
+					
+				<div class="col-4 block__item">
+						<label for="pierre_de_ronsard_label">
+							<img  src="img/Rose/pierre_de_ronsard2.jpg"/>
+							<h3 class="Rose__name">Pierre de Ronsard <br>20 $</h3>
+						</label>
+						<input type="number" id="pierre_de_ronsard" class="Rose"> <span class="ht">pc.</span>
+					</div>
+					<div class="col-4  block__item">
+						<label for="Rose de Resht_label">
+							<img src="img/Rose/Rose de Resht.jpg"/>
+							<h3 class="Rose__name">Rose de Resht <br>25 $</h3>
+						</label>
+						<input type="number" id="Resht" class="Rose"> <span class="ht">pc.</span>
+					</div>	
+					<div class="col-4 block__item">
+						<label for="Dijon_label">
+							<img src="img/Rose/Dijon2.jpg"/>
+							<h3 class="Rose__name">Dijon <br>15 $</h3>
+						</label>
+						<input type="number" id="Dijon" class="Rose"> <span class="ht">pc.</span>
+					</div>	
+				
+				
+					
+				<div class="col-4 block__item">
+						<label for="Smaragd_label">
+							<img  src="img/Tuya/Smaragd2.png".jpg"/>
+							<h3 class="Thuya__name">Smaragd <br>25 $</h3>
+						</label>
+						<input type="number" id="Smaragd" class="Thuya"> <span class="ht">pc.</span>
+					</div>
+				<div class="col-4 block__item">
+						<label for="Barabant_label">
+							<img  src="img/Tuya/брабант.jpg".jpg"/>
+							<h3 class="Thuya__name">Barabant <br>35 $</h3>
+						</label>
+						<input type="number" id="Barabant" class="Thuya"> <span class="ht">pc.</span>
+					</div>
+				<div class="col-4  block__item">
+						<label for="Wagneri_label">
+							<img  src="img/Tuya/Wagneri2.png".jpg"/>
+							<h3 class="Thuya__name">Wagneri <br>50 $</h3>
+						</label>
+						<input type="number" id="Wagneri" class="Thuya"> <span class="ht">pc.</span>
+					</div>
+					
+					
+			 		 <div class="Itog  row">
+						    <div class="Sum  col-4">
+						<input type="button" id="btn" class="btn-block btn btn-primary" value="Sum"/>
+						</div>
+							<div class="row col-12"><span id="out">0.0</span> <span class="Dollar">$</span></div>
+					 </div>	
+					</div>
+					</div>
+					</section>
+					
+					<script>
+					var 
+					kessel = document.querySelector('#Lily__Kesselringianum');
+					martagon = document.querySelector('#Lily__martagon');
+					pardalium = document.querySelector('#Lily__pardalinum');
+					ronsard = document.querySelector('#pierre_de_ronsard');
+					resht = document.querySelector('#Resht');
+					dijon = document.querySelector('#Dijon');
+					smaragd = document.querySelector('#Smaragd');
+					barabant = document.querySelector('#Barabant');
+					wagneri = document.querySelector('#Wagneri');
+					
+					kessel_price = 10;
+					martagon_price = 15;
+					pardalium_price = 17;
+					
+					ronsard_price = 20;
+					resht_price = 25;
+					dijon_price = 15;
+					
+					smaragd_price = 25;
+					barabant_price = 35;
+					wagneri_price = 50;
+					
+				function sum (){
+					if(kessel.value !=0){
+						var kess = kessel_price*kessel.value;
+						out.innerHTML = kess + mar + par;
+						} else{
+							var kess = 0;
+						}
+					if(martagon !=0){
+						var mar = martagon.value*martagon_price;
+						out.innerHTML = mar + kess+ par;
+						} else {
+							var mar = 0;
+						}
+					if(pardalium !=0){
+							var par = pardalium.value* pardalium_price;
+							out.innerHTML = par+kess+mar;
+						}else {
+							var par = 0;
+						}
+					if (ronsard !=0){
+						var ron = ronsard_price* ronsard.value;
+						out.innerHTML = ron+par+kess+mar;
+						}else{
+							var ron = 0;
+						}
+					if (resht !=0){
+						var res = resht_price* resht.value;
+						out.innerHTML = res+ron+par+kess+mar;
+						}else{
+							var res = 0;
+							}
+					if (dijon !=0){
+						var dij = dijon_price* dijon.value;
+						out.innerHTML = dij+ res+ron+par+kess+mar;
+						}else{
+							var dij = 0;
+					
+							}	
+					if (smaragd !=0){
+						var smar = smaragd_price* smaragd.value;
+						out.innerHTML = smar + dij+ res+ron+par+kess+mar;
+						}else{
+							var smar = 0;
+							}
+					if (barabant !=0){
+						var bar = barabant_price* barabant.value;
+						out.innerHTML = bar+ smar + dij+ res+ron+par+kess+mar;
+						}else{
+							var bar = 0;
+							}
+					if (wagneri !=0){
+						var wag = wagneri_price* wagneri.value;
+						out.innerHTML = wag + bar+ smar + dij+ res+ron+par+kess+mar;
+						}else{
+							var war = 0;
+							}
+					
+					};
+				
+						
+					 btn.onclick = sum;	
+						
+					</script>
+	</body>
+</html>

@@ -1,0 +1,201 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background: #000000;
+}
+a { 
+text-decoration: none;
+cursor: pointer;
+color: #fff;
+}
+
+
+.header__nav{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.logo {
+	display: inline-block;
+	text-align: center;
+
+}
+.header__nav_img{
+	width: 74px;
+	height: 54px;
+	margin-top: 15px;
+}
+
+.header__nav_text {
+	margin-top: 25px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 28px;
+
+	
+}
+.header__block{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 17px;
+}
+.nav__item{
+	display: inline-block;
+	margin-left: 35px;
+
+}
+.header__utp{
+	display: inline-flex;
+	justify-content: space-between;
+	
+}
+.header_box1{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.header__box2{
+	margin-left: 450px;
+	margin-top: 55px;
+	
+}
+.block__item img{
+	margin-top: 25px;
+	width: 270px;
+	height: 250px;
+	margin-left: 60px;
+	border-radius: 15px;
+}
+.Lily__name,.Rose__name,.Thuya__name{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 40px;
+	color:#ffffff;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.lily,.Rose,.Thuya{
+	text-align: center;
+	
+}	
+#Lily__Kesselringianum,#Lily__martagon,#Lily__pardalinum,#pierre_de_ronsard,#Resht,#Dijon,#Smaragd,#Barabant,#Wagneri{
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin-top: 2px;
+	margin-left: 55px;
+}
+#out{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	margin-left: 40px;
+	color:#ffffff;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.price_btn{
+	margin-top: 25px;
+	width: 120px;
+	height: 30px;
+	margin-left: 15px;
+	border-radius: 15px;
+} 
+.Itog{
+	margin-left: 55px;
+}
+.btn{
+	background: #565656;
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	margin-top: 25px;
+	margin-left: 25px;
+	color:#ffffff;
+	box-sizing: border-box;
+	border-radius: 45px;
+	padding: 15px;
+	
+}
+
+.Dollar,.ht{
+		margin-top: 39px;
+		font-size: 28px;
+		color: #fff;
+}
+.ht{
+		margin-top: 35px;
+		font-size: 18px;
+		color: #fff;
+}
+#Lily__Kesselringianum, #Lily__martagon, #Lily__pardalinum, #pierre_de_ronsard, #Resht, #Dijon, #Smaragd, #Barabant, #Wagneri{
+	margin-left: 75px;
+}
+@media screen and (min-width:0px) and (max-width:1199px) { 
+	#Lily__Kesselringianum, #Lily__martagon, #Lily__pardalinum, #pierre_de_ronsard, #Resht, #Dijon, #Smaragd, #Barabant, #Wagneri{
+		margin-left: 80px;
+	}
+}
+
+
+@media screen and (min-width:0px) and (max-width:991px)  { 
+	.block__item img{
+	margin-top: 25px;
+	width: 140px;
+	height: 150px;
+	margin-left: 60px;
+	border-radius: 15px;
+}
+	.Lily__name,.Rose__name,.Thuya__name{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 44px;
+	color:#ffffff;
+	box-sizing: border-box;
+	padding: 15px;
+}
+		#Lily__Kesselringianum, #Lily__martagon, #Lily__pardalinum, #pierre_de_ronsard, #Resht, #Dijon, #Smaragd, #Barabant, #Wagneri{
+		width: 80px;
+		margin-left: 63px;
+	}
+	.lily,.Rose,.Thuya{
+	text-align: right;
+	
+}	
+}
+
+
+@media screen and (min-width:0px) and (max-width:771px)  { 
+		#Lily__Kesselringianum.lili{
+		weight: 50px;
+	}
+}
+
+
+@media screen and (min-width:0px) and (max-width:550px)  {
+	.Itog{
+		margin-left: 20px
+	}
+}
+@media screen and (min-width:0px) and (max-width:550px)  {	
+	.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: -23px;
+    margin-right: auto;
+    margin-left: -22px;
+    box-sizing: border-box;
+}
+}

@@ -1,0 +1,228 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background: #000000;
+}
+
+a { 
+text-decoration: none;
+cursor: pointer;
+color: #fff;
+
+}
+
+
+.header__nav{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.logo {
+	display: inline-block;
+	text-align: center;
+
+}
+.header__nav_img{
+	width: 74px;
+	height: 54px;
+	margin-top: 15px;
+}
+
+.header__nav_text {
+	margin-top: 25px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 28px;
+
+	
+}
+.header__block{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+
+	font-size: 17px;
+}
+.nav__item{
+	display: inline-block;
+	margin-left: 15px;
+		margin-right: 45px;
+
+}
+
+#Lilium,#Rose1,#Thuya1{
+	color: #ffffff;
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 65px;
+
+	
+}
+.Kissel,.martagon,.pardalinum{
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+.Kissel_img,.martagon__img,.pardalinum_img{
+	padding: 15px;
+	
+	
+}
+.Liliya__kesselringianum,.Liliya__martagon,.Liliya__pardalinum{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+.liliya img{
+	width: 200px;
+	height: 300px;
+	border-radius: 25px;
+	
+}
+
+
+
+
+.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 450px;
+
+}
+
+	
+	
+	
+.Rose img {
+	width: 200px;
+	height: 200px;
+	margin-top: 25px;
+	border-radius: 25px;
+
+}
+
+.Rose__Ronsard_img,.Rose_de_Resht_img,.Dijon_img{
+	padding: 15px;
+	
+}
+.Pierre_de_Ronsard,.Rose_de_Resht,.Dijon{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 5px;
+	
+	
+}
+.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 450px;
+	
+}
+
+.Thuya img{
+	width: 200px;
+	height: 300px;
+	margin-top: 25px;
+	border-radius: 25px;
+}
+.Smaragd_img,.Barabant_img,.Wagneri_img{
+	padding:15px;
+}
+
+.Smaragd,.Brabant,.Wagneri{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 5px;
+}
+.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 450px;
+	
+	
+}
+
+@media screen and (min-width:0px) and (max-width:1199px) { 
+	.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	margin-left: 350px;}
+	.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	margin-left: 350px;}
+	.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	margin-left: 340px;}
+	
+	
+
+	
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:991px)  { 
+	.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	margin-left: 282px;}
+	.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	margin-left: 282px;}
+	.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	margin-left: 282px;}
+
+}
+
+@media screen and (min-width:0px) and (max-width:821px)  { 
+	.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	margin-left: 259px;}
+	.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	margin-left: 259px;}
+		.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	margin-left: 259px;}
+}
+@media screen and (min-width:0px) and (max-width:789px)  { 
+	.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	margin-left:0px;}
+	.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	margin-left: 0px;}
+		.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	margin-left: 0px;}
+}
+
+@media screen and (min-width:0px) and (max-width:726px)  { 
+	.Kessel__txt,.martagon__txt,.pardalinum__txt{
+	margin-left: 9px;}
+	.Pierre_de_Ronsard__txt,.Rose_de_Resht__txt,.Dijon__txt{
+	margin-left: 9px;}
+		.Smaragd__txt,.Brabant__txt,.Wagneri__txt{
+	margin-left: 9px;}
+}
+
+	
+
+
